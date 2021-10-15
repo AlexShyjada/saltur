@@ -1,0 +1,86 @@
+.ramalList{
+  margin-bottom: 8rem;
+  table-layout: fixed;
+  border-spacing: 0 1rem;
+}
+
+.titleRamais{
+  margin: 8rem 0;
+  font-size: 3.6rem;
+  text-align: center;
+  color: var(--azul-prefeitura);
+}
+
+.titleAndar{
+  margin: 5rem auto 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size:2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cabecalhoItem{
+  padding: 1.5rem;  
+  background-color: var(--branco);
+  text-align: left;
+}
+
+.setor{
+  border-radius:  1rem 0 0 1rem;
+  width: 45%;
+}
+
+.nome{
+  width: 45%;
+}
+
+.ramal{
+  text-align: center;
+  width: 10%;
+  border-radius:  0 1rem 1rem 0;
+}
+
+.ramalItems{
+  background-color: rgba(255,255,255,0.3);
+  transition: 0.3s;
+}
+
+.ramalItems:hover{
+  background-color: rgba(255,255,255, 1);
+}
+
+.ramalItem{
+  padding: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+
+.ramalItem.setor{
+  font-weight: 500;
+}
+
+@media (max-width: 900px){
+  .ramalList{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .setor{
+    width: 40.5rem;
+  }
+  
+  .nome{
+    width: 40.5rem;
+  }
+  
+  .ramal{
+    width: 9rem;
+  }
+
+
+}

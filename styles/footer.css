@@ -1,0 +1,79 @@
+.footer {
+  margin-top: 8rem;
+  background-color: var(--azul-prefeitura);
+}
+
+.logoSalturFooter, .logoNTI{
+  height: 5rem;
+  width: max-content;
+}
+
+.gridFooter {
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.colunaDeLinks {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+}
+
+.link-footer {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--branco);
+  border-bottom: inset 2px transparent;
+  width: max-content;
+  transition: 0.3s;
+}
+
+.link-footer:hover {
+  border-bottom: inset 2px var(--branco);
+}
+
+.copy {
+  padding: 2.5rem 0;
+  background-color: var(--azul-escuro);
+}
+
+.textCopy {
+  color: var(--branco);
+  text-align: center;
+}
+
+
+@media (max-width: 900px) {
+  .logoSalturFooter, .logoNTI{
+    display: none;
+    visibility: hidden;
+    width:0;
+    height:0;
+  }
+}
+@media (max-width: 500px) {
+  .colunaDeLinks{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gridFooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 300px) {
+  .gridFooter{
+    grid-template-columns: 1fr;
+  }
+}

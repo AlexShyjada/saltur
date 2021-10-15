@@ -1,0 +1,69 @@
+#sectionDownloads{
+  margin: 8rem auto;
+}
+
+.titleEquipe{
+  margin: 8rem auto;
+  font-size: 3.6rem;
+  color: var(--azul-prefeitura);
+  text-align: center;
+}
+
+.titleSetor{
+  margin: 8rem auto;
+  font-size: 2.4rem;
+  color: var(--preto);
+  text-align: center;
+}
+
+.funcionariosList{
+  width: 100%;
+  margin-bottom: 8rem;
+  table-layout: fixed;
+  border-spacing: 0 1rem;
+}
+
+.funcCabecalhoItem{
+  padding: 1.5rem;
+  background-color: var(--branco);
+  text-align: left;
+  padding: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+
+.membroEquipe{
+  padding: 1.5rem;
+  background-color: rgba(255,255,255,0.3);
+  text-align: left;
+  padding: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  transition: 0.3s;
+}
+
+.membroEquipe:hover{
+  background-color: rgba(255,255,255, 1);
+}
+
+.funcNome, .name{
+  padding: 1.5rem;
+  width: 50%;
+  border-radius:  1rem 0 0 1rem;
+}
+
+.funcSetor, .setorOuCargo{
+  padding: 1.5rem;
+  width: 50%;
+  border-radius:  0 1rem 1rem 0;
+}
+
+@media (max-width: 900px){
+  .funcionariosList{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}

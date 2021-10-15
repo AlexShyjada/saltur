@@ -1,0 +1,61 @@
+.aniversariantes {
+  margin: 8rem auto;
+}
+
+.gridAniversariantes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.titleAniversarante {
+  margin: 8rem auto;
+  font-size: 3.6rem;
+  color: var(--azul-prefeitura);
+  text-align: center;
+}
+
+.aniversariante {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  background-color: var(--branco);
+}
+
+.aniverTitle {
+  font-size: 2rem;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.aniverParagrath {
+  font-size: 1.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.aniverSector {
+  font-size: 1.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+@media (max-width: 1024px) {
+  .gridAniversariantes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .gridAniversariantes {
+    grid-template-columns: 1fr;
+  }
+}
