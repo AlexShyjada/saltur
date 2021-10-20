@@ -9,11 +9,32 @@
   text-align: center;
 }
 
-.titleSetor{
-  margin: 8rem auto;
+.titleSetorNivel1{
+  padding: 2rem 0;
+  margin: 2rem auto;
   font-size: 2.4rem;
+  color: var(--branco);
+  text-align: center;
+  background: var(--azul-escuro);
+}
+
+.titleSetorNivel2{
+  padding: 1.5rem 0;
+  margin: 2rem auto;
+  font-size: 2rem;
+  color: var(--branco);
+  text-align: center;
+  background: var(--azul-prefeitura);
+}
+
+.titleSetorNivel3{
+  padding: 1rem 0;
+  margin: 2rem auto;
+  font-size: 1,8rem;
+  font-weight:  400;
   color: var(--preto);
   text-align: center;
+  background: var(--azul-claro);
 }
 
 .funcionariosList{

@@ -18,7 +18,7 @@ const linksUteisList = [
   {
     name: "Chamados NTI",
     paragrath: "Abra um chamado em caso de problemas técnicos.",
-    url: "http://www.dom.salvador.ba.gov.br/",
+    url: "#",
     img: "./img/LinksUteis/link-chamadonti.png"
   },
   {

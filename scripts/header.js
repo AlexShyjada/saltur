@@ -20,7 +20,7 @@ function headerInnerHTML (){
                 <li><a href="missao-visao-valores.html">Missão, Visão e Valores</a></li>
                 <li><a href="./nossa-equipe.html">Nossa Equipe</a></li>
                 <li><a href="./regimento-interno.html">Regimento</a>
-                <li><a href="./organograma.html" target="_blank">Organograma</a>
+                <li><a href="./utils/Organograma_Da_Saltur.pdf" target="_blank">Organograma</a>
                 <li><a href="./codigo-de-conduta.html">Código de conduta</a>
               </ul>
             </li>
