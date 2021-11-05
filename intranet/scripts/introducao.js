@@ -6,7 +6,7 @@ const introducao = document.getElementById('intro')
 // É aqui que precisa alterar se o aviso mudar (normalmente sempre que o mês muda)
 
 const content = {
-  title: "Recadastramento dos aniversariantes do mês de outubro",
+  title: "Recadastramento dos aniversariantes do mês de novembro",
   description: "Atenção! Está fazendo aniversário esse mês? Então não se esqueça de fazer o recadastramento na plataforma da Secretaria Municipal de Gestão - SEMGE",
   url: "https://www.recadastramento.salvador.ba.gov.br/ativo/login",
   img: "./img/icone-calendario.svg",

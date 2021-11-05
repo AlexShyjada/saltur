@@ -3,33 +3,39 @@
 
 const aniversariantesList = [
   {
-    nome: "Maria da Paz",
-    setor: "Eventos",
-    dataAniversario: "12 de Outubro",
+    nome: "Patricia Estrella",
+    setor: "DIRAF",
+    dataAniversario: "01 de Novembro",
     sexo: "F"
   },
   {
-    nome: "André Vinhático",
-    setor: "NTI",
-    dataAniversario: "14 de Outubro",
+    nome: "Bianca Viana",
+    setor: "Jurídico",
+    dataAniversario: "16 de Novembro",
+    sexo: "F"
+  },
+  {
+    nome: "Elizabeth Coelho",
+    setor: "Contratos",
+    dataAniversario: "16 de Novembro",
+    sexo: "F"
+  },
+  {
+    nome: "Marcelo Silva",
+    setor: "DIPRE",
+    dataAniversario: "22 de Novembro",
     sexo: "M"
   },
   {
-    nome: "Liana Oliva",
+    nome: "Elthom Passarinho",
     setor: "MSVB",
-    dataAniversario: "15 de Outubro",
-    sexo: "F"
-  },
-  {
-    nome: "Andréa Mariani",
-    setor: "Imprensa",
-    dataAniversario: "21 de Outubro",
+    dataAniversario: "23 de Novembro",
     sexo: "M"
   },
   {
-    nome: "Narciso Almeida",
-    setor: "Setor Pessoal",
-    dataAniversario: "29 de Outubro",
+    nome: "Jemerson Santos",
+    setor: "Eventos",
+    dataAniversario: "29 de Novembro",
     sexo: "M"
   },
 ]
