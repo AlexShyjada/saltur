@@ -138,7 +138,7 @@ const mezanino = [
     ramal: "7630",
   },
   {
-    atendente: "Joilton, Carine e Alex",
+    atendente: "Paulo, Carine e Alex",
     setor: "Eventos",
     ramal: "7672",
   },
