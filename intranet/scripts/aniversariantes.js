@@ -9,6 +9,12 @@ const aniversariantesList = [
     sexo: "F"
   },
   {
+    nome: "Pedro Rodamilans",
+    setor: "Diretor Adm. Financeiro",
+    dataAniversario: "03 de Novembro",
+    sexo: "M"
+  },
+  {
     nome: "Bianca Viana",
     setor: "Jurídico",
     dataAniversario: "16 de Novembro",
